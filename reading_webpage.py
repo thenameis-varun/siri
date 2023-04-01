@@ -1,28 +1,4 @@
-# import pywhatkit
 
-# # Prompt the user to enter the location
-# location = input("Enter your location: ")
-
-# # Construct the search query
-# query = f"{location} weather"
-
-# # Search for the weather using Google
-# pywhatkit.search(query)
-# import pyowm
-
-# # Prompt the user to enter the location
-# location = input("Enter your location: ")
-
-# # Set up the OpenWeatherMap API key
-# owm = pyowm.OWM('YOUR-API_KEY')  # Replace YOUR-API-KEY with your actual API key
-
-# # Get the current weather observation for the location
-# observation = owm.weather_at_place(location)
-# weather = observation.get_weather()
-
-# # Get the weather status and print it out
-# status = weather.get_status()
-# print("The weather in", location, "is", status)
 
 import requests
 from bs4 import BeautifulSoup
