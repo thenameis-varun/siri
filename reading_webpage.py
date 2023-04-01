@@ -14,7 +14,7 @@
 # location = input("Enter your location: ")
 
 # # Set up the OpenWeatherMap API key
-# owm = pyowm.OWM('AIzaSyCpSE7LYHw34oo41xu7KO5C5eS0TN_fzzQ')  # Replace YOUR-API-KEY with your actual API key
+# owm = pyowm.OWM('YOUR-API_KEY')  # Replace YOUR-API-KEY with your actual API key
 
 # # Get the current weather observation for the location
 # observation = owm.weather_at_place(location)
