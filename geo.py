@@ -1,7 +1,7 @@
 from geopy.geocoders import Nominatim
 def location():
     geolocator = Nominatim(user_agent="geopy")
-    location = geolocator.reverse("13.036051,77.566617")
+    location = geolocator.reverse("LATITUDE_VALUE , LONGITUDE_VALUE")
     result=location.address
     return(result)
 
